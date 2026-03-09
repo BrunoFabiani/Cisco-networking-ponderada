@@ -1,5 +1,33 @@
 # Cisco-networking-ponderada
 
+VIDEO: https://drive.google.com/file/d/19WR2b2aIorA38z8s5rhR6SrdC1WzJWGs/view?usp=sharing
+
+Relatório Técnico — Análise de Propagação de Sinal em Redes Ethernet
+Introdução
+
+Este experimento teve como objetivo analisar o comportamento da transmissão de dados em redes locais utilizando dois dispositivos diferentes: hub e switch. A análise foi realizada no Cisco Packet Tracer utilizando três computadores conectados por cabos de par trançado. No primeiro cenário foi utilizada uma rede com hub, permitindo observar o comportamento do meio compartilhado na camada física. No segundo cenário, o hub foi substituído por um switch 2960, possibilitando a comparação do fluxo de transmissão dos sinais e da propagação das PDUs na rede.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Rede com HUB e análise de propagação do sinal
+
+Na primeira etapa do experimento foi criado um cenário de rede no Cisco Packet Tracer com o objetivo de analisar a propagação de sinais em um ambiente baseado em hub. A topologia foi composta por três computadores (PC0, PC1 e PC2) conectados a um hub, utilizando cabos de par trançado (Ethernet copper straight-through) como meio físico de comunicação.
+
+Cada computador foi conectado a uma porta do hub, formando uma topologia física simples em que todos os dispositivos compartilham o mesmo equipamento de interconexão. Após a montagem da rede, foram configurados manualmente os endereços IP em cada máquina, mantendo todos os dispositivos na mesma rede lógica.
+
+PC0: 10.0.0.5
+
+PC1: 10.0.0.6
+
+PC2: 10.0.0.7
+
+Todos os dispositivos utilizaram a máscara de rede 255.0.0.0, garantindo que os três computadores estivessem dentro do mesmo segmento de rede.
+
+
+
+
+Rede com SWITCH
+
 a) Por que todos os nós recebem o quadro inicialmente dentro de um hub?
 
 
