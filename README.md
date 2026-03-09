@@ -59,7 +59,7 @@ Como o hub opera na camada física do modelo OSI, ele apenas repete o sinal elé
 
 Podemos comparar isso ao Switch. O switch opera na camada de enlace de dados (camada 2) do modelo OSI e consegue analisar o endereço MAC de destino presente no quadro Ethernet antes de encaminhar os dados. Diferente do hub, o switch não replica automaticamente o sinal elétrico para todas as portas. Ele verifica o destino da comunicação e encaminha o quadro apenas para a porta onde está conectado o dispositivo correspondente. Dessa forma, apenas o destinatário recebe o quadro, enquanto os outros dispositivos da rede não recebem essa transmissão.
 
-![Switch restringe apenas aos dispositivos que querem se comunicar](cisco_dev_3.png)
+![Switch restringe apenas aos dispositivos que querem se comunicar](cisco_dev_4.png)
 
 O switch não elimina completamente o meio físico, pois todos os dispositivos ainda estão conectados por cabos à mesma infraestrutura de rede. No entanto, ele segmenta a comunicação, criando domínios de colisão separados em cada porta.
 
