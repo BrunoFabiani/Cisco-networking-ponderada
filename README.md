@@ -7,6 +7,8 @@ Introdução
 
 Este experimento teve como objetivo analisar o comportamento da transmissão de dados em redes locais utilizando dois dispositivos diferentes: hub e switch. A análise foi realizada no Cisco Packet Tracer utilizando três computadores conectados por cabos de par trançado. No primeiro cenário foi utilizada uma rede com hub, permitindo observar o comportamento do meio compartilhado na camada física. No segundo cenário, o hub foi substituído por um switch 2960, possibilitando a comparação do fluxo de transmissão dos sinais e da propagação das PDUs na rede.
 
+![Montagem do experimento](cisco_dev.png)
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *Rede com HUB e análise de propagação do sinal*
