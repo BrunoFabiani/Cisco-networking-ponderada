@@ -64,7 +64,7 @@ Podemos comparar isso ao Switch. O switch opera na camada de enlace de dados (ca
 
 ![Switch restringe apenas aos dispositivos que querem se comunicar](cisco_dev_4.png)
 
-O switch não elimina completamente o meio físico, pois todos os dispositivos ainda estão conectados por cabos à mesma infraestrutura de rede. No entanto, ele segmenta a comunicação, criando domínios de colisão separados em cada porta.
+O switch não elimina completamente o meio físico, pois todos os dispositivos ainda estão conectados por cabos à mesma infraestrutura de rede. No entanto, ele segmenta a comunicação, criando domínios de colisão separados em cada porta. Alcançando um desempenho melhor que o Hub.
 
 
 REFERENCIAS:
